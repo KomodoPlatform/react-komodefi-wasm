@@ -1,0 +1,36 @@
+{
+    "userpass": "testpsw",
+    "mmrpc": "2.0",
+    "method": "start_simple_market_maker_bot",
+    "params": {
+        "price_url": "https://prices.komodo.live:1313/api/v2/tickers?expire_at=600",
+        "bot_refresh_rate": 60,
+        "cfg": {
+            "DGB-LTC": {
+                "base": "DGB",
+                "rel": "LTC-segwit",
+                "max": true,
+                "spread": "1.018",
+                "base_confs": 3,
+                "base_nota": false,
+                "rel_confs": 3,
+                "rel_nota": false,
+                "enable": true,
+                "price_elapsed_validity": 60.0
+            },
+            "LTC-DGB": {
+                "base": "LTC-segwit",
+                "rel": "DGB",
+                "max_volume": {"usd": "5"},
+                "spread": "1.018",
+                "base_confs": 3,
+                "base_nota": false,
+                "rel_confs": 3,
+                "rel_nota": false,
+                "enable": true,
+                "price_elapsed_validity": 60.0
+            }
+        }
+    },
+    "id": 0
+}

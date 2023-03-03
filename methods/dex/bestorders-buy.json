@@ -1,0 +1,8 @@
+{
+    "userpass":"testpsw",
+    "method": "best_orders",
+    "coin": "$1",
+    "action": "buy",
+    "volume": "$2"
+}
+

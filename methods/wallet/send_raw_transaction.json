@@ -1,0 +1,6 @@
+{
+    "method": "send_raw_transaction",
+    "coin": "$1",
+    "tx_hex": "$2",
+    "userpass": "testpsw"
+}

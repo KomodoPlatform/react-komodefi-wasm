@@ -1,0 +1,9 @@
+{
+	"userpass": "testpsw",
+	"method": "task::enable_utxo::cancel",
+	"mmrpc": "2.0",
+	"params": {
+		"task_id": 1,
+        "forget_if_finished": false
+	}
+}

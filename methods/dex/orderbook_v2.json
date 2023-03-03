@@ -1,0 +1,10 @@
+{
+	"mmrpc":"2.0",
+	"userpass":"testpsw",
+	"method":"orderbook",
+	"params": {
+		"base":"$1",
+		"rel":"$2"
+	},
+	"id":42
+}

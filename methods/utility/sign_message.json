@@ -1,0 +1,12 @@
+
+
+{
+  "userpass": "testpsw",
+  "method": "sign_message",
+  "mmrpc": "2.0",
+  "id": 0,
+  "params": {
+    "coin": "$1",
+    "message": "$2"
+  }
+}

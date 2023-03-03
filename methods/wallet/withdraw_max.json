@@ -1,0 +1,7 @@
+{
+    "method":"withdraw",
+    "coin":"$1",
+    "to":"$2",
+    "userpass":"testpsw",
+    "max":true
+}

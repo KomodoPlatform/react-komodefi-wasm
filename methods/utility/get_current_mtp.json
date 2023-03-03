@@ -1,0 +1,9 @@
+{
+    "method": "get_current_mtp",
+    "userpass": "testpsw",
+    "mmrpc": "2.0",
+    "id": 2,
+    "params": {
+        "coin": "$1"
+    }
+}

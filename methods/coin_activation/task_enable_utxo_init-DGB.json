@@ -1,0 +1,34 @@
+{
+
+    "userpass": "testpsw",
+    "mmrpc": "2.0",
+    "method": "task::enable_utxo::init",
+    "params": {
+        "ticker": "DGB",
+        "activation_params": {
+            "mode": {
+                "rpc": "Electrum",
+                "rpc_data": {
+                    "servers": [
+                        {
+                            "url": "electrum1.cipig.net:30059",
+                            "protocol": "WSS"
+                        },
+                        {
+                            "url": "electrum2.cipig.net:30059",
+                            "protocol": "WSS"
+                        },
+                        {
+                            "url": "electrum3.cipig.net:30059",
+                            "protocol": "WSS"
+                        }
+                    ]
+                }
+            },
+            "scan_policy": "scan_if_new_wallet",
+            "priv_key_policy": "Trezor",
+            "min_addresses_number": 3,
+            "gap_limit": 20
+        }
+    }
+}

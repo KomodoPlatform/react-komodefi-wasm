@@ -1,0 +1,9 @@
+{
+	"mmrpc":"2.0",
+	"userpass":"testpsw",
+	"method":"task::withdraw::cancel",
+	"params": {
+		"task_id": 1
+	},
+	"id":0
+}

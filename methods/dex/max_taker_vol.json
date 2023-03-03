@@ -1,0 +1,7 @@
+{
+    "method":"max_taker_vol",
+    "coin":"$1",
+    "trade_with":"$2",
+    "userpass":"testpsw"
+}
+

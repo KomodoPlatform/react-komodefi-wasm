@@ -1,0 +1,8 @@
+{
+    "userpass":"testpsw",
+    "method":"task::init_trezor::init",
+    "mmrpc":"2.0",
+    "params":{
+        "forget_if_finished": false
+    }
+}

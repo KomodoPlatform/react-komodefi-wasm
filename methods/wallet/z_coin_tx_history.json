@@ -1,0 +1,10 @@
+{
+  "userpass":"testpsw",
+  "method":"z_coin_tx_history",
+  "mmrpc":"2.0",
+  "params": {
+    "coin": "ZOMBIE",
+    "limit": 5
+  }
+}
+

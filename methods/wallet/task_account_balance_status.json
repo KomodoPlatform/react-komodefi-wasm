@@ -1,0 +1,9 @@
+{
+    "userpass": "testpsw",
+    "mmrpc": "2.0",
+    "method": "task::account_balance::status",
+    "params": {
+        "task_id": 1,
+        "forget_if_finished": false
+    }
+}

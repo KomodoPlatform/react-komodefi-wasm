@@ -1,0 +1,9 @@
+{
+    "userpass":"testpsw",
+    "method":"my_recent_swaps",
+    "limit":2,
+    "my_coin":"$coin",
+    "from_timestamp":0,
+    "to_timestamp": 1677580922
+}
+

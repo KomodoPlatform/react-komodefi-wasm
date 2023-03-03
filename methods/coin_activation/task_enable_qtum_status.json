@@ -1,0 +1,8 @@
+{
+    "userpass": "testpsw",
+    "mmrpc": "2.0",
+    "method": "task::enable_qtum::status",
+    "params": {
+        "task_id": 1
+    }
+}

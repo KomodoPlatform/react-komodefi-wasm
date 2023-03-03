@@ -1,0 +1,6 @@
+{
+    "userpass":"testpsw",
+    "method":"my_recent_swaps",
+    "page_number":1,
+    "limit":10
+}

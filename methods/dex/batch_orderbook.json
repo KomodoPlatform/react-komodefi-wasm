@@ -1,0 +1,20 @@
+[
+    {"userpass":"testpsw","method":"orderbook","base":"BCH","rel":"RICK"},
+    {"userpass":"testpsw","method":"orderbook","base":"BCH","rel":"KMD"},
+    {"userpass":"testpsw","method":"orderbook","base":"BCH","rel":"LTC"},
+    {"userpass":"testpsw","method":"orderbook","base":"BCH","rel":"MORTY"},
+    {"userpass":"testpsw","method":"orderbook","base":"BCH","rel":"DASH"},
+    {"userpass":"testpsw","method":"orderbook","base":"BCH","rel":"DOGE"},
+    {"userpass":"testpsw","method":"orderbook","base":"BCH","rel":"DGB"},
+    {"userpass":"testpsw","method":"orderbook","base":"BCH","rel":"KOIN"},
+    {"userpass":"testpsw","method":"orderbook","base":"BCH","rel":"ZEC"},
+    {"userpass":"testpsw","method":"orderbook","base":"BCH","rel":"RICK"},
+    {"userpass":"testpsw","method":"orderbook","base":"KMD","rel":"BCH"},
+    {"userpass":"testpsw","method":"orderbook","base":"KMD","rel":"LTC"},
+    {"userpass":"testpsw","method":"orderbook","base":"KMD","rel":"MORTY"},
+    {"userpass":"testpsw","method":"orderbook","base":"KMD","rel":"DASH"},
+    {"userpass":"testpsw","method":"orderbook","base":"KMD","rel":"DOGE"},
+    {"userpass":"testpsw","method":"orderbook","base":"KMD","rel":"DGB"},
+    {"userpass":"testpsw","method":"orderbook","base":"KMD","rel":"KOIN"},
+    {"userpass":"testpsw","method":"orderbook","base":"KMD","rel":"ZEC"}
+]

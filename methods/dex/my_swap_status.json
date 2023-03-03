@@ -1,0 +1,7 @@
+{
+    "method": "my_swap_status",
+    "params": {
+        "uuid": "$1"
+    },
+    "userpass":"testpsw"
+}

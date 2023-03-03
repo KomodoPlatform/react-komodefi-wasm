@@ -1,0 +1,10 @@
+{
+  "userpass":"testpsw",
+  "mmrpc":"2.0",
+  "method":"get_locked_amount",
+  "params":{
+    "coin":"$1"
+  },
+  "id": 42
+}
+

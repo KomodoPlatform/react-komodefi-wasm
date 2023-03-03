@@ -1,0 +1,13 @@
+{
+	"mmrpc":"2.0",
+	"userpass":"testpsw",
+	"method":"task::withdraw::init",
+	"params": {
+		"forget_if_finished": false,
+		"coin":"$1",
+		"to":"$2",
+		"amount":"$3",
+                "memo":"$4"
+	}
+	,"id":0
+}

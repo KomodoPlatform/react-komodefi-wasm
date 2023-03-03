@@ -1,0 +1,7 @@
+{
+    "userpass":"testpsw",
+    "method":"all_swaps_uuids_by_filter",
+    "my_coin":"RICK",
+    "from_timestamp":1611705600,
+    "to_timestamp":1641792001
+}

@@ -1,0 +1,14 @@
+{
+	"mmrpc":"2.0",
+	"userpass":"testpsw",
+	"method":"best_orders",
+	"params": {
+		"coin":"$1",
+		"action":"$2",
+		"request_by": {
+                    "type": "volume",
+                    "value": 100
+                }
+	},
+	"id":0
+}

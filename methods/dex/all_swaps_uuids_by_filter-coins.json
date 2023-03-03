@@ -1,0 +1,6 @@
+{
+    "userpass":"testpsw",
+    "method":"all_swaps_uuids_by_filter",
+    "my_coin":"RICK",
+    "other_coin":"BNBT"
+}

@@ -1,0 +1,10 @@
+{
+    "userpass":"testpsw",
+    "method":"electrum",
+    "coin":"LTC",
+    "servers":[{"url":"electrum1.cipig.net:10063"}],
+    "address_format": {
+        "format":"segwit"
+    },
+    "tx_history":true
+}

@@ -1,0 +1,12 @@
+{
+    "userpass": "testpsw",
+    "method": "task::init_trezor::user_action",
+    "mmrpc": "2.0",
+    "params": {
+        "task_id": 0,
+        "user_action": {
+            "action_type": "TrezorPassphrase",
+            "passphrase": "komodian"
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "method": "task::enable_z_coin::init",
+    "mmrpc": "2.0",
+    "params": {
+        "activation_params": {
+            "mode": {
+                "rpc": "Light",
+                "rpc_data": {
+                    "electrum_servers": [
+                        {
+                            "disable_cert_verification": false,
+                            "protocol": "TCP",
+                            "url": "node1.chainkeeper.pro:10032"
+                        },
+                        {
+                            "disable_cert_verification": false,
+                            "protocol": "TCP",
+                            "url": "node1.chainkeeper.pro:10132"
+                        },
+                        {
+                            "disable_cert_verification": true,
+                            "protocol": "SSL",
+                            "url": "node1.chainkeeper.pro:20032"
+                        },
+                        {
+                            "disable_cert_verification": false,
+                            "protocol": "SSL",
+                            "url": "node1.chainkeeper.pro:20132"
+                        }
+                    ],
+                    "light_wallet_d_servers": [
+                        "http://node1.chainkeeper.pro:443"
+                    ]
+                }
+            }
+        },
+        "ticker": "ARRR",
+        "tx_history": true
+    },
+    "userpass": "testpsw"
+}

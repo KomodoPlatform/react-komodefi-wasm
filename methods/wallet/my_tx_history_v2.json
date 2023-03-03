@@ -1,0 +1,10 @@
+{
+  "userpass": "testpsw",
+  "method": "my_tx_history",
+  "mmrpc": "2.0",
+  "params": {
+    "coin": "$1",
+    "limit": 50
+  }
+}
+

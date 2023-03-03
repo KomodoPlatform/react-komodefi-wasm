@@ -1,0 +1,13 @@
+{
+    "mmrpc": "2.0",
+    "userpass": "testpsw",
+    "method": "trade_preimage",
+    "params": {
+        "base":"$1",
+        "rel":"$2",
+        "price":"$3",
+        "volume":"$4",
+        "swap_method":"$5"
+    },
+    "id":0
+}

@@ -1,0 +1,12 @@
+
+
+
+{
+    "userpass": "testpsw",
+    "mmrpc": "2.0",
+    "method": "task::account_balance::cancel",
+    "params": {
+        "task_id": 1
+    }
+}
+echo

@@ -1,0 +1,10 @@
+{
+    "userpass": "testpsw",
+    "method": "setprice",
+    "base": "$1",
+    "rel": "$2",
+    "price": "$3",
+    "volume": 1,
+    "save_in_history": true
+}
+

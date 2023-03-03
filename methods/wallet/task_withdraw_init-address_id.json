@@ -1,0 +1,15 @@
+{
+    "userpass": "testpsw",
+    "mmrpc": "2.0",
+    "method": "task::withdraw::init",
+    "params": {
+        "coin": "$1",
+        "to": "$2",
+        "amount": 10,
+        "from": {
+            "account_id": 0,
+            "chain": "External",
+            "address_id": 1
+        }
+    }
+}

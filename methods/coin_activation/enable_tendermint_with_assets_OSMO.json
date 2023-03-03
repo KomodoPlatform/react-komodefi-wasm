@@ -1,0 +1,15 @@
+{
+    "method":"enable_tendermint_with_assets",
+    "mmrpc":"2.0",
+    "params": {
+        "ticker":"OSMO",
+        "tokens_params": [
+        ],
+        "rpc_urls": [
+            "https://osmosis-mainnet-rpc.allthatnode.com:26657/"
+       ],
+       "tx_history":true
+    },
+    "userpass":"testpsw"
+}
+
