@@ -84,9 +84,30 @@ function App() {
     "passphrase": "wasmtest",
     "allow_weak_password": true,
     "rpc_password": "testpsw",
-    "netid": 7777
+    "netid": 8762,
+    "event_stream_configuration": {
+      "access_control_allow_origin": "*",
+      "active_events": {
+        "NETWORK": { "stream_interval_seconds": 1.5 },
+        "COIN_BALANCE": {}
+      }
+    }
 }`);
   const [requestData, setRequestData] = useState(`[
+    {
+      "userpass": "testpsw",
+      "method":"enable_tendermint_with_assets",
+      "mmrpc":"2.0",
+      "params": {
+        "ticker": "ATOM-TEST",
+        "tokens_params": [],
+        "rpc_urls": [
+          "https://rpc.sentry-02.theta-testnet.polypore.xyz"
+        ],
+        "tx_history": false
+      },
+      "id": 0
+    },
     {
         "userpass": "testpsw",
         "method": "electrum",
